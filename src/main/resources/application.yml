@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: Whatsapp-api
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        boot:
+          allow_jdbc_metadata_access: false
+    database: postgresql
+  ai:
+    openai:
+      api-key:
+    anthropic:
+      api-key:
+      chat:
+        options:
+          model:
+    gemini:
+      api-key:
+      url:
+    default:
+      model: anthropic
+
+server:
+  port: 8080
+
+Green-API:
+  instanceId:
+  instanceToken:
+  host: "https://api.green-api.com"
+  hostMedia: "https://media.green-api.com"
