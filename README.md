@@ -40,6 +40,10 @@ spring.jpa.hibernate.ddl-auto=update
 
 anthropic.api.key=your_api_key
 anthropic.api.url=https://api.anthropic.com/v1/completions
+Green-API.instanceId=your_instance_id
+Green-API.instanceToken=your_instance_token
+Green-API.host = "https://api.green-api.com"
+Green-API.hostMedia="https://media.green-api.com"
 ``` 
 4. Run the docker command: 
 
