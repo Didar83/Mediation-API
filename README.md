@@ -1,6 +1,6 @@
 # AI bot for dispute resolution
 
-## The project simulates a trial, where a WhatsApp bot acts as a judge.
+## The project simulates a dispute resolution process, where a WhatsApp bot acts as a judge.
 ### Tech stack - Java 21, Spring Boot, Postgres, Anthropic AI, custom RAG.
 
 The project structure is 2 external APIs and a backend for business logic. I used the API for Anthropic AI to generate text, and the Whatsapp API for messaging.
